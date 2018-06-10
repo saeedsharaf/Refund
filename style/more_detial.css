@@ -1,0 +1,85 @@
+
+.close input{
+    
+
+    margin-left: 50%;
+    width: 100px;
+    height: 33px;
+    margin-bottom: 10px;
+}
+
+
+
+.saeed{
+
+border : 1px solid black;
+text-align: center;
+line-height: 24px;
+
+display : inline-block;
+padding : 5px;
+
+    min-width: 200px;
+    min-height: 25px;
+
+
+}
+
+table{
+margin : auto;
+margin-bottom : 20px;
+
+
+}
+
+.column1{
+min-width : 60px;
+}
+
+.column2{
+min-width : 325px;
+}
+
+
+.column3{
+min-width : 105px;
+}
+
+
+.column4{
+min-width : 325px;
+}
+
+.column5{
+min-width : 105px;
+}
+
+
+.column7{
+min-width : 100px;
+}
+
+
+.column8{
+width : 1119px;
+}
+
+.des{
+width : 96%;
+min-height : 100px;
+border : 1px solid black;
+}
+
+textarea{
+resize : none;
+width: 96.5%;
+height : 100px;
+margin-top : 20px;
+}
+
+tr {
+height : 35px;
+}
+input[type = submit]{
+margin-top: 10px;
+}

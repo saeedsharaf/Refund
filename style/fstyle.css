@@ -1,0 +1,122 @@
+.container{
+
+    max-width:1150px;
+    margin:0px auto;
+	margin-left:50px;
+    background:#fff;
+    border-radius:2px;
+    padding:20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+.container ul{
+    list-style:none;
+    padding:0;
+    margin:0;  
+	width:50%;
+display: flex;
+}
+
+.container li{
+    display: block;
+    padding: 9px;
+    border:1px solid #a6a6a6;
+    margin-bottom: 25px;
+    border-radius: 3px;
+	
+}
+
+.container .new li:last-child{
+    border:none;
+    margin-bottom: 0px;
+    text-align: center;
+	
+}
+
+.container li > label{
+    display: block;
+		
+    float: left;
+    margin-top: -19px;
+    background: #FFFFFF;
+    height: 14px;
+    padding: 2px 5px 2px 5px;
+    color: #737373;
+    font-size: 14px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container input[type="text"],
+.container textarea,
+.container select 
+
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container li > span{
+    background: #e6e6e6;
+    display: block;
+    padding: 3px;
+    margin: 0 -9px -9px -9px;
+    text-align: center;
+    color: #595959;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+	
+}
+
+.container textarea{
+    resize:none;
+	
+	height : 100px;
+}
+
+.container input[type="submit"]
+{
+    background: #c5c5c5;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 1px #DADADA solid;
+    border-radius: 12px;
+    color: #444444;
+	font-weight: bold;
+    font-size: 10pt;
+	outline: none;
+	
+	margin : 0px 10px ;
+}
+
+.container input[type="submit"]:hover
+{
+    background: #3f47b3;
+    color:#fff;
+	margin : 0px 10px ;
+	
+}
+ul.new{
+margin-top:20px;
+width:100%;
+
+}
+
+li {
+    display: inline;
+}
+
+.id{
+width:150px;
+}

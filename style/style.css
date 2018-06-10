@@ -1,0 +1,422 @@
+
+body{
+margin:0px;
+}
+
+/* below code for heading */
+.header{
+background-color:#36304a;
+height:45px;
+width: 100% ;
+min-width: 1366px;
+
+}
+
+.headtext{
+color:white;
+font-size:25px;
+padding:1px;
+margin-left: 30px;
+font-family:"Helvetica","Myriad","Arial";
+}
+
+.bold{
+font-weight:bold;
+font-size:30px;
+
+}
+ 
+/* below code for menu */
+.menu{
+display:flex;
+box-sizing: border-box; 
+margin-bottom: 10px;
+}
+
+a{
+text-decoration: none;
+
+}
+
+a:hover, a.selected{
+color: red;
+border-bottom: 1px solid red;
+
+}
+
+
+
+.refund, .escalation{
+width: 170px;
+height:40px;
+text-align:center;
+margin: 10px;
+margin-left:5px;
+font-size:19px;
+border-right: 1px solid black;
+text-transform: capitalize;
+
+}
+
+/* below code for new */
+.form-style-7{
+
+    max-width:1150px;
+    margin:0px auto;
+	margin-left:50px;
+    background:#fff;
+    border-radius:2px;
+    padding:20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+.form-style-7 ul{
+    list-style:none;
+    padding:0;
+    margin:0;  
+	width:200px;
+
+}
+
+.form-style-7 li{
+    display: block;
+    padding: 9px;
+    border:1px solid #a6a6a6;
+    margin-bottom: 25px;
+    border-radius: 3px;
+	
+}
+
+.form-style-7 .new li:last-child{
+    border:none;
+    margin-bottom: 0px;
+    text-align: center;
+	
+}
+
+.form-style-7 li > label{
+    display: block;
+		
+    float: left;
+    margin-top: -19px;
+    background: #FFFFFF;
+    height: 14px;
+    padding: 2px 5px 2px 5px;
+    color: #737373;
+    font-size: 14px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-style-7 input[type="text"],
+.form-style-7 textarea,
+.form-style-7 select 
+
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    display: block;
+    outline: none;
+    border: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form-style-7 li > span{
+    background: #e6e6e6;
+    display: block;
+    padding: 3px;
+    margin: 0 -9px -9px -9px;
+    text-align: center;
+    color: #595959;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+	
+}
+
+.form-style-7 textarea{
+    resize:none;
+	
+	height : 100px;
+}
+
+.form-style-7 input[type="submit"]
+{
+    background: #c5c5c5;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-bottom: 1px #DADADA solid;
+    border-radius: 12px;
+    color: #444444;
+	font-weight: bold;
+    font-size: 10pt;
+	outline: none;
+	
+	margin : 0px 10px ;
+}
+
+.form-style-7 input[type="submit"]:hover
+{
+    background: #3f47b3;
+    color:#fff;
+	margin : 0px 10px ;
+	
+}
+ul.new{
+margin-top:20px;
+width:100%;
+
+}
+
+/* below code for search */
+.search {
+display : flex;
+ box-sizing: border-box;
+min-width: 1366px;
+max-width: 1366px;
+/*
+margin-bottom: 16px;
+*/
+}
+
+.search input[type=text]{
+
+margin-left:70px;
+height:19px;
+width:150px;
+margin-right: 20px;
+}
+
+input[type=button], button{
+
+width: 80px;
+height:25px;
+
+}
+
+.button{
+margin-right: 15px;
+    width: 80px;
+    height: 25px;
+}
+
+/* date style */
+
+input[type=date]{
+
+margin-right:10px;
+margin-left:10px;
+height:20px;
+font-size:12px;
+width:120px;
+}
+.right{
+margin-left: 500px;
+}
+
+/* new assign SR's*/
+
+
+
+
+/*table style */
+
+
+
+table {
+    border-collapse: collapse;
+	width: 100%;
+	border-radius: 10px;
+    overflow: hidden;
+}
+
+table, th, td{
+text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+th, td{
+padding: 3px;
+
+}
+
+tr:hover{
+background-color: #ededed;
+
+}
+
+th{
+background-color: #36304a;
+color: white;
+height : 45px;
+font-weight: lighter;
+
+}
+
+tr{
+font-family: OpenSans-Regular;
+color :#585858;
+font-size: 15px;
+
+
+}
+
+td{
+font-size: 16px;
+height : 35px;
+
+}
+
+.taberror{
+    width: 100%;
+}
+
+/* sizing column */
+.column1{
+width: 150px;
+
+}
+.column2{
+width: 150px;
+
+}
+.column3{
+width: 150px;
+
+}
+.column4{
+width: 90px;
+
+}
+.column5{
+width: 150px;
+
+}
+.column6{
+width: 150px;
+
+}
+.column7{
+width: 150px;
+
+}
+.column8{
+width: 150px;
+
+}
+/*
+code for no result
+*/
+.result{
+        height: 50px;
+        background-color: #dadada91;
+        width : 90%;
+        margin: auto;
+        border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 50px;
+}
+
+/* code for number of TT */
+.declare{
+float:right;
+margin-right:50px;
+margin-bottom:5px;
+text-transform:capitalize;
+
+}
+
+
+
+/*          style for more details */
+
+
+
+
+
+/* style for close */
+.close input{
+    
+
+    margin-left: 50%;
+    width: 100px;
+    height: 33px;
+    margin-bottom: 10px;
+}
+
+/* sv submit style */
+.svsub input{
+    
+        height:30px;
+        width: 90px;
+        
+    }
+    
+    .svsub{
+        margin-bottom: 10px;
+    }   
+    textarea{
+            margin-left: 12%;
+    height: 90px;
+    margin-bottom: 10px;
+    width: 80%;
+    }
+
+.ttheader1, .ttheader2, .ttheader3, .ttheader4, .ttheader5, .ttheader6, .ttheader7{
+
+padding: 0;
+margin:0px;
+width:200px;
+height:30px;
+font-size:12px;
+text-transform:capitalize;
+
+
+}
+
+.description{
+display:flex;
+width:99%;
+
+overflow-y:auto;
+height:440px;
+}
+
+.srs, .cstdial, .date, .status, .createdby, .handled, .sla {
+height:25px;
+padding:0px;
+width: 100%;
+margin:0px;
+text-transform:capitalize;
+font-size:15px;
+
+text-align:center;
+
+
+}
+
+
+.description{
+border: none;
+
+}
+
+.sr, .di, .st, .da, .cr, .ha{
+text-align:center;
+height:18px;
+font-size:13px;
+margin-top:10px;
+
+}
+
+
